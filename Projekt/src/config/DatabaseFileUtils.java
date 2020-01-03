@@ -7,36 +7,36 @@ import org.apache.log4j.Logger;
 
 import exception.PropertyFileException;
 
-public class PropertyFileUtils {
-	public static final Logger LOGGER = Logger.getLogger(PropertyFileUtils.class);
+public class DatabaseFileUtils {
+	public static final Logger LOGGER = Logger.getLogger(DatabaseFileUtils.class);
 	
-	private static PropertyFileUtils INSTANCE;
+	private static DatabaseFileUtils INSTANCE;
 	
-	private final String PROPERTY_FILE = Config.getPropertyFile();
+	private final String DATABASE_PROPERTY_FILE = Config.getDatabasePropertyFile();
 	private final Properties properties;
 	
-	private PropertyFileUtils() {
+	private DatabaseFileUtils() {
 		LOGGER.debug("bigin");
 		
 		properties = new Properties();
 		
 		try {
-			FileInputStream fileInputStream = new FileInputStream(PROPERTY_FILE);
+			FileInputStream fileInputStream = new FileInputStream(DATABASE_PROPERTY_FILE);
 			properties.load(fileInputStream);
 			fileInputStream.close();
 		} catch (IOException ex)
 		{
 			LOGGER.error(ex);
 		}
-		
+		//PropertyFileUtils
 	}
-	public static PropertyFileUtils getInstance()
+	public static DatabaseFileUtils getInstance()
 	{
 		LOGGER.debug("bigin");
 		if(INSTANCE ==null)
 		{
 			LOGGER.debug("New instance");
-			INSTANCE = new PropertyFileUtils();
+			INSTANCE = new DatabaseFileUtils();
 		}
 		else
 		{
@@ -70,4 +70,9 @@ public class PropertyFileUtils {
 		
 		return propertyValue;
 	}
+	public Properties getProperties() {
+		return properties;
+	}
+	
+	
 }
