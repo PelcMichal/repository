@@ -9,7 +9,7 @@ public class DatabaseConfig {
 	
 	public static String getUrl() {
 		try{
-		return "jdbc:postgresql:/"+PropertyFileUtils.getInstance().getProperty("URL_SYSTEM");
+		return "jdbc:postgresql:"+DatabaseFileUtils.getInstance().getProperty("URL_SYSTEM");
 	}catch(PropertyFileException propertyFileException)
 	{
 		LOGGER.error(propertyFileException.getMessage());
@@ -18,7 +18,7 @@ public class DatabaseConfig {
 	}
 	public static String getUserName() {
 		try {
-		return PropertyFileUtils.getInstance().getProperty("USER_NAME");
+		return DatabaseFileUtils.getInstance().getProperty("USER_NAME");
 	}catch(PropertyFileException propertyFileException)
 	{
 		LOGGER.error(propertyFileException.getMessage());
@@ -27,7 +27,7 @@ public class DatabaseConfig {
 	}
 	public static String getUserPassword() {
 		try {
-			return PropertyFileUtils.getInstance().getProperty("USER_PASSWORD");
+			return DatabaseFileUtils.getInstance().getProperty("USER_PASSWORD");
 		}catch(PropertyFileException propertyFileException)
 		{
 			LOGGER.error(propertyFileException.getMessage());
@@ -36,7 +36,7 @@ public class DatabaseConfig {
 	}
 	public static String getDatabase() {
 		try {
-			return PropertyFileUtils.getInstance().getProperty("DATABASE");
+			return DatabaseFileUtils.getInstance().getProperty("DATABASE");
 		}catch(PropertyFileException propertyFileException)
 		{
 			LOGGER.error(propertyFileException.getMessage());
