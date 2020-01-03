@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.util.Properties;
 import org.apache.log4j.Logger;
 
+import exception.PropertyFileException;
+
 public class PropertyFileUtils {
 	public static final Logger LOGGER = Logger.getLogger(PropertyFileUtils.class);
 	
