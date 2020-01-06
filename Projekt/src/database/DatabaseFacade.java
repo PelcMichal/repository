@@ -14,6 +14,10 @@ public class DatabaseFacade {
 		CREATE TABLE zmeny(id serial PRIMARY KEY,id_kmen serial NOT NULL,jmeno VARCHAR (50),zmena_mnozstvi integer NOT NULL,odeslana TIMESTAMPTZ DEFAULT Now(),zpracovano BOOLEAN DEFAULT false)
 		CREATE TABLE historie(id serial PRIMARY KEY,id_kmen serial NOT NULL,id_zmeny serial NOT NULL,jmeno VARCHAR (50) NOT NULL,zmena_mnozstvi integer NOT NULL,bylo_provedeno BOOLEAN NOT NULL,zpracovano TIMESTAMPTZ DEFAULT Now())
 		 */
+	/**
+	 * tries to create necesary tables for working with database
+	 * @param conn
+	 */
 	public static void tryToCreate(Connection conn)
 	{
 		
@@ -46,6 +50,13 @@ public class DatabaseFacade {
 			LOGGER.error("Cannot create Statment	"+e1);
 		}
 	}
+	/**
+	 * creates string to create line in table kmen
+	 * @param id
+	 * @param jmeno
+	 * @param mnozstvi
+	 * @return INSERT INTO kmen(id, jmeno, mnozstvi) VALUES (id, 'jmeno', mnozstvi)
+	 */
 	public static String createKmen(int id, String jmeno, int mnozstvi)
 	{
 		StringBuilder st = new StringBuilder();
@@ -58,11 +69,24 @@ public class DatabaseFacade {
 		st.append(")");
 		return st.toString();
 	}
+	/**
+	 * creates string to update line in table zmeny
+	 * @param id
+	 * @return UPDATE zmeny SET zpracovano = true WHERE id = id
+	 */
 	public static String zmenaZpracovana(int id)
 	{
 		//UPDATE zmena SET zpracovano = 'true' WHERE id = id;
 		return "UPDATE zmeny SET zpracovano = true WHERE id = "+id;
 	}
+	/**
+	 * creates string to create line in table historie
+	 * @param id_kmen
+	 * @param zmena_mnozstvi
+	 * @param bylo_provedeno
+	 * @param jmeno
+	 * @return INSERT INTO historie(id_kmen, zmena_mnozstvi, bylo_provedeno,jmeno) VALUES (id_kmen, zmena_mnozstvi, bylo_provedeno, 'jmeno')
+	 */
 	public static String createHistory(int id_kmen,int zmena_mnozstvi, boolean bylo_provedeno,String jmeno)
 	{
 		//INSERT INTO historie(id_kmen, id_zmeny, zmena_mnozstvi, bylo_provedeno,jmeno) VALUES (")
@@ -78,6 +102,13 @@ public class DatabaseFacade {
 		st.append("')");
 		return st.toString();
 	}
+	/**
+	 * creates string to update line in table zmeny
+	 * @param id
+	 * @param zmena_mnozstvi
+	 * @param mnozstni
+	 * @return UPDATE kmen SET mnozstvi = mnozstni+zmena_mnozstvi WHERE id = id
+	 */
 	public static String updateKmen(int id,int zmena_mnozstvi,int mnozstni)
 	{
 		StringBuilder st = new StringBuilder();
@@ -87,7 +118,13 @@ public class DatabaseFacade {
 		st.append(id);
 		return st.toString();
 	}
-	
+	/**
+	 * creates string to create line in table zmeny
+	 * @param id_kmen
+	 * @param jmeno
+	 * @param zmena_mnozstvi
+	 * @return INSERT INTO zmeny(id_kmen, jmeno, zmena_mnozstvi) VALUES (id_kmen, 'jmeno', zmena_mnozstvi)
+	 */
 	public static String createZmena(int id_kmen,String jmeno,int zmena_mnozstvi)
 	{
 		//stmt.execute("INSERT INTO zmeny(id_kmen, jmeno, zmena_mnozstvi) VALUES (1, 'a', 1)");
@@ -102,6 +139,10 @@ public class DatabaseFacade {
 		return st.toString();
 		
 	}
+	/**
+	 * write tble kmen, zmeny and historie to console
+	 * @param conn
+	 */
 	public static void vipis(Connection conn) 
 	{
 		Statement stmt = null;

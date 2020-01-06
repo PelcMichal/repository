@@ -28,8 +28,11 @@ public class DatabaseFileUtils {
 		{
 			LOGGER.error(ex);
 		}
-		//PropertyFileUtils
 	}
+	/**
+	 * Singlton
+	 * @return
+	 */
 	public static DatabaseFileUtils getInstance()
 	{
 		LOGGER.debug("bigin");
@@ -44,12 +47,19 @@ public class DatabaseFileUtils {
 		}
 		return INSTANCE;
 	}
-	
+	/**
+	 * deletes INSTANCE
+	 */
 	public static void cancelInstance()
 	{
 		INSTANCE = null;
 	}
-	
+	/**
+	 * gives property from a file based on name
+	 * @param propertyName Name name of property
+	 * @return property you named
+	 * @throws PropertyFileException
+	 */
 	public String getProperty(String propertyName) throws PropertyFileException
 	{
 		LOGGER.debug("bigin");
@@ -70,6 +80,10 @@ public class DatabaseFileUtils {
 		
 		return propertyValue;
 	}
+	/**
+	 * 
+	 * @return all Properties
+	 */
 	public Properties getProperties() {
 		return properties;
 	}
