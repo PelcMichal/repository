@@ -30,14 +30,14 @@ public class Main {
 			DatabaseFacade.tryToCreate(conn);
 			
 			
-			/*
+			
 			ResultSet rs = stmt.executeQuery("SELECT * FROM zmeny WHERE zpracovano = false");
 			if (rs.next()) 
 			{
 				System.out.println(rs);
 			}
 			System.out.println(rs);
-			System.out.println("f");*/
+			System.out.println("f");
 			conn.close();
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
