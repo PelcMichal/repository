@@ -14,7 +14,6 @@ public class PropertyFileUtils {
 	
 	private final String PROPERTY_FILE = Config.getPropertyFile();
 	private final Properties properties;
-	
 	private PropertyFileUtils() {
 		LOGGER.debug("bigin");
 		
@@ -30,6 +29,10 @@ public class PropertyFileUtils {
 		}
 		
 	}
+	/**
+	 * Singlton
+	 * @return
+	 */
 	public static PropertyFileUtils getInstance()
 	{
 		LOGGER.debug("bigin");
@@ -44,12 +47,19 @@ public class PropertyFileUtils {
 		}
 		return INSTANCE;
 	}
-	
+	/**
+	 * deletes INSTANCE
+	 */
 	public static void cancelInstance()
 	{
 		INSTANCE = null;
 	}
-	
+	/**
+	 * gives property from a file based on name
+	 * @param property Name name of property
+	 * @return property you named
+	 * @throws PropertyFileException
+	 */
 	public String getProperty(String propertyName) throws PropertyFileException
 	{
 		LOGGER.debug("bigin");
