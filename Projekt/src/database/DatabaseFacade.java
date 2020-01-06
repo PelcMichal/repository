@@ -11,13 +11,14 @@ import exception.PropertyFileException;
 
 public class DatabaseFacade {
 	public static final Logger LOGGER = Logger.getLogger(DatabaseFacade.class);
-	public static void tryToCreate(Connection conn)
-	{
-		/*
+	/*
 		CREATE TABLE kmen(id serial PRIMARY KEY,jmeno VARCHAR (50) NOT NULL,mnozstvi integer NOT NULL)
-		CREATE TABLE zmeny(id serial PRIMARY KEY,id_kmen serial NOT NULL,jmeno VARCHAR (50),mnozstvi integer NOT NULL,odeslana TIMESTAMP NOT NULL)
+		CREATE TABLE zmeny(id serial PRIMARY KEY,id_kmen serial NOT NULL,jmeno VARCHAR (50),mnozstvi integer NOT NULL,odeslana TIMESTAMP NOT NULL,zpracovano BOOLEAN NOT NULL)
 		CREATE TABLE historie(id serial PRIMARY KEY,id_kmen serial NOT NULL,jmeno VARCHAR (50) NOT NULL,mnozstvi integer NOT NULL,bylo_provedeno BOOLEAN NOT NULL,zpracovano TIMESTAMP NOT NULL)
 		 */
+	public static void tryToCreate(Connection conn)
+	{
+		
 		try {
 			Statement stmt = conn.createStatement();
 			/*
@@ -41,7 +42,7 @@ public class DatabaseFacade {
 			LOGGER.debug("Table kmen alredy exists");;
 		}
 		try {
-			stmt.execute("CREATE TABLE zmeny(id serial PRIMARY KEY,id_kmen serial NOT NULL,jmeno VARCHAR (50),mnozstvi integer NOT NULL,odeslana TIMESTAMP NOT NULL)");
+			stmt.execute("CREATE TABLE zmeny(id serial PRIMARY KEY,id_kmen serial NOT NULL,jmeno VARCHAR (50),mnozstvi integer NOT NULL,odeslana TIMESTAMP NOT NULL,zpracovano BOOLEAN NOT NULL)");
 		}
 		catch (SQLException e) {
 			// TODO Auto-generated catch block

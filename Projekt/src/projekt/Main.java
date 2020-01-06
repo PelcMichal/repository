@@ -26,11 +26,12 @@ public class Main {
 			Statement stmt = conn.createStatement();
 			//stmt.execute("CREATE DATABASE projekt");
 			//stmt.execute("DROP DATABASE projekt");
+			//stmt.execute("DROP table zmeny");
 			DatabaseFacade.tryToCreate(conn);
 			
 			
 			/*
-			ResultSet rs = stmt.executeQuery("SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE='BASE TABLE' AND TABLE_NAME='mytablename'");
+			ResultSet rs = stmt.executeQuery("SELECT * FROM zmeny WHERE zpracovano = false");
 			if (rs.next()) 
 			{
 				System.out.println(rs);
