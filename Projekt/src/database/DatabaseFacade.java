@@ -48,7 +48,7 @@ public class DatabaseFacade {
 	}
 	public static String createKmen(int id, String jmeno, int mnozstvi)
 	{
-		StringBuilder st = new StringBuilder();System.out.println("AAAAAAA");
+		StringBuilder st = new StringBuilder();
 		st.append("INSERT INTO kmen(id, jmeno, mnozstvi) VALUES (");
 		st.append(id);
 		st.append(", '");
@@ -61,7 +61,7 @@ public class DatabaseFacade {
 	public static String zmenaZpracovana(int id)
 	{
 		//UPDATE zmena SET zpracovano = 'true' WHERE id = id;
-		return "UPDATE zmena SET zpracovano = 'true' WHERE id = "+id;
+		return "UPDATE zmeny SET zpracovano = true WHERE id = "+id;
 	}
 	public static String createHistory(int id_kmen,int zmena_mnozstvi, boolean bylo_provedeno,String jmeno)
 	{
@@ -113,8 +113,8 @@ public class DatabaseFacade {
 		}
 		
 		try {
-			ResultSet k = stmt.executeQuery("SELECT id,jmeno,mnozstvi FROM kmen");
-			System.out.println("Kmen\nid\tjmeno\tmnozstvi\t");
+			ResultSet k = stmt.executeQuery("SELECT id,jmeno,mnozstvi FROM kmen ORDER BY id");
+			System.out.println("Kmen\nid\tjmeno\t\tmnozstvi");
 			while (k.next()) 
 			{
 				
@@ -122,7 +122,7 @@ public class DatabaseFacade {
 				st.append(k.getInt(1));
 				st.append("\t");
 				st.append(k.getString(2));
-				st.append("\t");
+				st.append("\t\t");
 				st.append(k.getInt(3));
 				System.out.println(st.toString());
 			}
@@ -132,8 +132,8 @@ public class DatabaseFacade {
 		}
 		
 		try {
-			ResultSet z = stmt.executeQuery("SELECT id,id_kmen,jmeno,zmena_mnozstvi,odeslana,zpracovano FROM zmeny");
-			System.out.println("Zmeny\nid\tid_kmen\tjmeno\tzmena_mnozstvi\todeslana\t\tzpracovano");
+			ResultSet z = stmt.executeQuery("SELECT id,id_kmen,jmeno,zmena_mnozstvi,odeslana,zpracovano FROM zmeny ORDER BY odeslana");
+			System.out.println("Zmeny\nid\tid_kmen\tjmeno\t\tzmena_mnozstvi\todeslana\t\t\tzpracovano");
 			while (z.next()) 
 			{
 				StringBuilder st = new StringBuilder();
@@ -142,9 +142,9 @@ public class DatabaseFacade {
 				st.append(z.getInt(2));
 				st.append("\t");
 				st.append(z.getString(3));
-				st.append("\t");
+				st.append("\t\t");
 				st.append(z.getInt(4));
-				st.append("\t\t\t");
+				st.append("\t\t");
 				st.append(z.getTimestamp(5));
 				st.append("\t");
 				st.append(z.getBoolean(6));
@@ -156,8 +156,8 @@ public class DatabaseFacade {
 		}
 		
 		try {
-			ResultSet h = stmt.executeQuery("SELECT id,id_kmen,jmeno,zmena_mnozstvi,zpracovano,bylo_provedeno FROM historie");
-			System.out.println("Historie\nid\tid_kmen\tjmeno\tzmena_mnozstvi\tzpracovano\tbylo_provedeno");
+			ResultSet h = stmt.executeQuery("SELECT id,id_kmen,jmeno,zmena_mnozstvi,zpracovano,bylo_provedeno FROM historie ORDER BY zpracovano");
+			System.out.println("Historie\nid\tid_kmen\tjmeno\t\tzmena_mnozstvi\tzpracovano\t\t\tbylo_provedeno");
 			while (h.next()) 
 			{
 				StringBuilder st = new StringBuilder();
@@ -166,9 +166,9 @@ public class DatabaseFacade {
 				st.append(h.getInt(2));
 				st.append("\t");
 				st.append(h.getString(3));
-				st.append("\t");
+				st.append("\t\t");
 				st.append(h.getInt(4));
-				st.append("\t\t\t");
+				st.append("\t\t");
 				st.append(h.getTimestamp(5));
 				st.append("\t");
 				st.append(h.getBoolean(6));

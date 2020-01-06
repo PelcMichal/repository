@@ -31,6 +31,8 @@ public class Main {
 			Connection conn = DriverManager.getConnection(config.DatabaseConfig.getUrl(), config.DatabaseFileUtils.getInstance().getProperties());
 			
 			Statement stmt = conn.createStatement();
+			Statement stmtt = conn.createStatement();
+			Statement stmttt = conn.createStatement();
 			//stmt.execute("CREATE DATABASE projekt");
 			//stmt.execute("DROP DATABASE projekt");
 			stmt.execute("DROP table kmen");
@@ -46,36 +48,40 @@ public class Main {
 			stmt.execute(DatabaseFacade.createZmena(1, "lopata", -10));
 			stmt.execute(DatabaseFacade.createZmena(1, "lopata", 5));
 			stmt.execute(DatabaseFacade.createZmena(2, "krumpac", 5));
-			
-			
-			//DatabaseFacade.vipis(conn);
-			ResultSet z = stmt.executeQuery("SELECT id_kmen,jmeno,zmena_mnozstvi FROM zmeny WHERE zpracovano = false");
+			/*
+			ResultSet rs = stmt.executeQuery("SELECT VERSION()");
+
+	            if (rs.next()) {
+	                System.out.println(rs.getString(1));
+	            }*/
+			DatabaseFacade.vipis(conn);
+			ResultSet z = stmt.executeQuery("SELECT id_kmen,jmeno,zmena_mnozstvi,id FROM zmeny WHERE zpracovano = false");
 			
 			while (z.next()) 
 			{
 				
-				ResultSet k = stmt.executeQuery("SELECT id,jmeno,mnozstvi FROM kmen WHERE id = "+z.getInt(1));
+				ResultSet k = stmtt.executeQuery("SELECT id,jmeno,mnozstvi FROM kmen WHERE id = "+z.getInt(1));
 				if (k.next())
 				{
 					if(k.getInt(3)+z.getInt(3)>=0)
 					{
-						stmt.execute(DatabaseFacade.updateKmen(z.getInt(1), z.getInt(3), k.getInt(3)));
-						stmt.execute(DatabaseFacade.createHistory(z.getInt(1), z.getInt(3), true, k.getString(2)));
+						stmttt.execute(DatabaseFacade.updateKmen(z.getInt(1), z.getInt(3), k.getInt(3)));
+						stmttt.execute(DatabaseFacade.createHistory(z.getInt(1), z.getInt(3), true, k.getString(2)));
+						stmttt.execute(DatabaseFacade.zmenaZpracovana(z.getInt(4)));
 						LOGGER.debug("Added to "+ k.getString(2));
 					}
 					else
 					{
-						stmt.execute(DatabaseFacade.zmenaZpracovana(z.getInt(1)));
-						stmt.execute(DatabaseFacade.createHistory(z.getInt(1), z.getInt(3), false, k.getString(2)));
+						stmttt.execute(DatabaseFacade.createHistory(z.getInt(1), z.getInt(3), false, k.getString(2)));
+						stmttt.execute(DatabaseFacade.zmenaZpracovana(z.getInt(4)));
 						LOGGER.debug("Not enough "+ k.getString(2));
 					}
 				}
 				else
-				{System.out.println(z.getNString(2));
-					System.out.println("AAAAAAA");
-					stmt.execute(DatabaseFacade.createKmen(z.getInt(1), z.getString(2), z.getInt(3)));System.out.println("AAAAAAA");
-					stmt.execute(DatabaseFacade.zmenaZpracovana(z.getInt(1)));
-					stmt.execute(DatabaseFacade.createHistory(z.getInt(1), z.getInt(3), true, z.getString(2)));
+				{
+					stmttt.execute(DatabaseFacade.createKmen(z.getInt(1), z.getString(2), z.getInt(3)));
+					stmttt.execute(DatabaseFacade.createHistory(z.getInt(1), z.getInt(3), true, z.getString(2)));
+					stmttt.execute(DatabaseFacade.zmenaZpracovana(z.getInt(4)));
 					LOGGER.debug("Created "+z.getString(2));
 				}
 				
@@ -83,7 +89,7 @@ public class Main {
 				//System.out.println(z.getInt(1)+z.getString(2)+z.getInt(3));
 				LOGGER.debug("Chenge finished");
 			}
-			//DatabaseFacade.vipis(conn);
+			DatabaseFacade.vipis(conn);
 			conn.close();
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
