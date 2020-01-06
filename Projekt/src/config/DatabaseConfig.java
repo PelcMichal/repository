@@ -9,6 +9,14 @@ public class DatabaseConfig {
 	
 	public static String getUrl() {
 		try{
+			/*
+			try{
+				return "jdbc:postgresql:"+DatabaseFileUtils.getInstance().getProperty("URL_SYSTEM")+DatabaseFileUtils.getInstance().getProperty("DATABASE");
+			}catch(PropertyFileException propertyFileException)
+			{
+				
+			}
+			*/
 		return "jdbc:postgresql:"+DatabaseFileUtils.getInstance().getProperty("URL_SYSTEM");
 	}catch(PropertyFileException propertyFileException)
 	{
