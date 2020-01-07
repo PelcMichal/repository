@@ -10,16 +10,16 @@ import exception.PropertyFileException;
 public class DatabaseFileUtils {
 	public static final Logger LOGGER = Logger.getLogger(DatabaseFileUtils.class);
 	
-	private static DatabaseFileUtils INSTANCE;
+	private static DatabaseFileUtils instance;
 	
-	private final String DATABASE_PROPERTY_FILE = Config.getDatabasePropertyFile();
+	private final String databasePropertyFile = Config.getDatabasePropertyFile();
 	private final Properties properties;
 	
 	private DatabaseFileUtils() {
 		LOGGER.debug("bigin");
 		properties = new Properties();
 		try {
-			FileInputStream fileInputStream = new FileInputStream(DATABASE_PROPERTY_FILE);
+			FileInputStream fileInputStream = new FileInputStream(databasePropertyFile);
 			properties.load(fileInputStream);
 			fileInputStream.close();
 		} catch (IOException ex)
@@ -33,23 +33,23 @@ public class DatabaseFileUtils {
 	 */
 	public static DatabaseFileUtils getInstance()
 	{
-		if(INSTANCE ==null)
+		if(instance ==null)
 		{
 			LOGGER.debug("New instance");
-			INSTANCE = new DatabaseFileUtils();
+			instance = new DatabaseFileUtils();
 		}
 		else
 		{
 			LOGGER.debug("Old instance");
 		}
-		return INSTANCE;
+		return instance;
 	}
 	/**
 	 * deletes INSTANCE
 	 */
 	public static void cancelInstance()
 	{
-		INSTANCE = null;
+		instance = null;
 	}
 	/**
 	 * gives property from a file based on name
