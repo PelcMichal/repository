@@ -18,12 +18,6 @@ public class Main {
 		PropertyConfigurator.configure(config.Config.getLogPropertyFile());
 		
 		LOGGER.debug("*** BEGIN ***");
-		
-		/*
-		CREATE TABLE kmen(id serial unique,jmeno VARCHAR (50) NOT NULL,mnozstvi integer NOT NULL)
-		CREATE TABLE zmeny(id serial PRIMARY KEY,id_kmen serial NOT NULL,jmeno VARCHAR (50),zmena_mnozstvi integer NOT NULL,odeslana TIMESTAMPTZ DEFAULT Now(),zpracovano BOOLEAN DEFAULT false)
-		CREATE TABLE historie(id serial PRIMARY KEY,id_kmen serial NOT NULL,id_zmeny serial NOT NULL,jmeno VARCHAR (50) NOT NULL,zmena_mnozstvi integer NOT NULL,bylo_provedeno BOOLEAN NOT NULL,zpracovano TIMESTAMPTZ DEFAULT Now())
-		 */
 		try (Connection conn = DriverManager.getConnection(config.DatabaseConfig.getUrl(), config.DatabaseFileUtils.getInstance().getProperties());){
 			DatabaseFacade.tryToCreate(conn.createStatement());
 			LOGGER.info(DatabaseFacade.vipis(conn));

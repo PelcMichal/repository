@@ -17,9 +17,7 @@ public class DatabaseFileUtils {
 	
 	private DatabaseFileUtils() {
 		LOGGER.debug("bigin");
-		
 		properties = new Properties();
-		
 		try {
 			FileInputStream fileInputStream = new FileInputStream(DATABASE_PROPERTY_FILE);
 			properties.load(fileInputStream);
@@ -35,7 +33,6 @@ public class DatabaseFileUtils {
 	 */
 	public static DatabaseFileUtils getInstance()
 	{
-		LOGGER.debug("bigin");
 		if(INSTANCE ==null)
 		{
 			LOGGER.debug("New instance");
@@ -62,7 +59,6 @@ public class DatabaseFileUtils {
 	 */
 	public String getProperty(String propertyName) throws PropertyFileException
 	{
-		LOGGER.debug("bigin");
 		
 		String propertyValue = properties.getProperty(propertyName);
 		
@@ -77,7 +73,6 @@ public class DatabaseFileUtils {
 			propertyFileException.setPropertyValue(propertyValue);
 			throw propertyFileException;
 		}
-		
 		return propertyValue;
 	}
 	/**

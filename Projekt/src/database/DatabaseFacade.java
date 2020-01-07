@@ -9,10 +9,7 @@ import org.apache.log4j.Logger;
 
 public class DatabaseFacade {
 	public static final Logger LOGGER = Logger.getLogger(DatabaseFacade.class);
-	private DatabaseFacade()
-	{
-		
-	}
+	private DatabaseFacade() {}
 	
 	/**
 	 * tries to create necesary tables for working with database
@@ -239,6 +236,4 @@ public class DatabaseFacade {
 			LOGGER.error(e);
 		}
 	}
-	
-	
 }

@@ -17,9 +17,7 @@ public class CreateData {
 	
 	public static void main(String[] args) {
 		PropertyConfigurator.configure(config.Config.getLogPropertyFile());
-		
-		
-		
+			
 		try(
 				Connection conn = DriverManager.getConnection(config.DatabaseConfig.getUrl(), config.DatabaseFileUtils.getInstance().getProperties());
 				Statement stmt = conn.createStatement();	
