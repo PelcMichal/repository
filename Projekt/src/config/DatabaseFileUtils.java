@@ -68,10 +68,7 @@ public class DatabaseFileUtils {
 		if(propertyValue == null)
 		{
 			LOGGER.error("Property not found");
-			PropertyFileException propertyFileException = new PropertyFileException("Property not found");
-			propertyFileException.setPropertyName(propertyName);
-			propertyFileException.setPropertyValue(propertyValue);
-			throw propertyFileException;
+			throw new PropertyFileException("Property not found",propertyName,propertyValue);
 		}
 		return propertyValue;
 	}
