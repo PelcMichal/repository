@@ -16,9 +16,7 @@ public class PropertyFileUtils {
 	private final Properties properties;
 	private PropertyFileUtils() {
 		LOGGER.debug("bigin");
-		
 		properties = new Properties();
-		
 		try {
 			FileInputStream fileInputStream = new FileInputStream(PROPERTY_FILE);
 			properties.load(fileInputStream);
@@ -27,7 +25,6 @@ public class PropertyFileUtils {
 		{
 			LOGGER.error(ex);
 		}
-		
 	}
 	/**
 	 * Singlton
@@ -35,7 +32,6 @@ public class PropertyFileUtils {
 	 */
 	public static PropertyFileUtils getInstance()
 	{
-		LOGGER.debug("bigin");
 		if(INSTANCE ==null)
 		{
 			LOGGER.debug("New instance");
@@ -62,13 +58,10 @@ public class PropertyFileUtils {
 	 */
 	public String getProperty(String propertyName) throws PropertyFileException
 	{
-		LOGGER.debug("bigin");
-		
 		String propertyValue = properties.getProperty(propertyName);
 		
 		LOGGER.debug("propertyName: "+propertyName);
 		LOGGER.debug("propertyValue: "+propertyValue);
-		
 		if(propertyValue == null)
 		{
 			LOGGER.error("Property not found");
@@ -77,7 +70,6 @@ public class PropertyFileUtils {
 			propertyFileException.setPropertyValue(propertyValue);
 			throw propertyFileException;
 		}
-		
 		return propertyValue;
 	}
 }

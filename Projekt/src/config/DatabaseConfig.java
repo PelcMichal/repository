@@ -5,6 +5,7 @@ import org.apache.log4j.Logger;
 import exception.PropertyFileException;
 
 public class DatabaseConfig {
+	private DatabaseConfig() {}
 	public static final Logger LOGGER = Logger.getLogger(DatabaseConfig.class);
 	/**
 	 * url for jdbc
@@ -58,5 +59,4 @@ public class DatabaseConfig {
 		}
 			return null;
 	}
-	
 }
