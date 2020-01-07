@@ -10,15 +10,15 @@ import exception.PropertyFileException;
 public class PropertyFileUtils {
 	public static final Logger LOGGER = Logger.getLogger(PropertyFileUtils.class);
 	
-	private static PropertyFileUtils INSTANCE;
+	private static PropertyFileUtils instance;
 	
-	private final String PROPERTY_FILE = Config.getPropertyFile();
+	private final String propertyFile = Config.getPropertyFile();
 	private final Properties properties;
 	private PropertyFileUtils() {
 		LOGGER.debug("bigin");
 		properties = new Properties();
 		try {
-			FileInputStream fileInputStream = new FileInputStream(PROPERTY_FILE);
+			FileInputStream fileInputStream = new FileInputStream(propertyFile);
 			properties.load(fileInputStream);
 			fileInputStream.close();
 		} catch (IOException ex)
@@ -32,23 +32,23 @@ public class PropertyFileUtils {
 	 */
 	public static PropertyFileUtils getInstance()
 	{
-		if(INSTANCE ==null)
+		if(instance ==null)
 		{
 			LOGGER.debug("New instance");
-			INSTANCE = new PropertyFileUtils();
+			instance = new PropertyFileUtils();
 		}
 		else
 		{
 			LOGGER.debug("Old instance");
 		}
-		return INSTANCE;
+		return instance;
 	}
 	/**
 	 * deletes INSTANCE
 	 */
 	public static void cancelInstance()
 	{
-		INSTANCE = null;
+		instance = null;
 	}
 	/**
 	 * gives property from a file based on name
