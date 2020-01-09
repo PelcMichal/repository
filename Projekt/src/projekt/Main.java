@@ -20,9 +20,8 @@ public class Main {
 		LOGGER.debug("*** BEGIN ***");
 		try (Connection conn = DriverManager.getConnection(config.DatabaseConfig.getUrl(), config.DatabaseFileUtils.getInstance().getProperties());){
 			DatabaseFacade.tryToCreate(conn.createStatement());
-			LOGGER.info(DatabaseFacade.vipis(conn));
 			DatabaseFacade.provedZmeny(conn);
-			LOGGER.info(DatabaseFacade.vipis(conn));
+			
 		} catch (SQLException e) {
 			LOGGER.error(e);
 		}
