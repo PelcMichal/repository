@@ -21,13 +21,13 @@ public class DatabaseFacade {
 	public static void tryToCreate(Statement stmt)
 	{	
 		try {
-			stmt.execute("CREATE TABLE kmen(id serial unique,jmeno VARCHAR (50) NOT NULL,mnozstvi integer NOT NULL)");
+			stmt.execute("CREATE TABLE kmen(id serial unique not null,jmeno VARCHAR (50) NOT NULL,mnozstvi integer NOT NULL)");
 		}
 		catch (SQLException e) {
 			LOGGER.debug("Table kmen alredy exists");
 		}
 		try {
-			stmt.execute("CREATE TABLE zmeny(id serial PRIMARY KEY,id_kmen serial NOT NULL,jmeno VARCHAR (50),zmena_mnozstvi integer NOT NULL,odeslana TIMESTAMPTZ DEFAULT Now(),zpracovano BOOLEAN DEFAULT false)");
+			stmt.execute("CREATE TABLE zmeny(id_kmen serial NOT NULL,jmeno VARCHAR (50),zmena_mnozstvi integer NOT NULL,odeslana TIMESTAMPTZ DEFAULT Now(),zpracovano BOOLEAN DEFAULT false)");
 		}
 		catch (SQLException e) {
 			LOGGER.debug("Table zmeny alredy exists");
@@ -195,43 +195,45 @@ public class DatabaseFacade {
 	{
 		try (
 				ResultSet z = conn.createStatement().executeQuery("SELECT id_kmen,jmeno,zmena_mnozstvi,id FROM zmeny WHERE zpracovano = false");
-				ResultSet k = conn.createStatement( ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY ).executeQuery("SELECT id,jmeno,mnozstvi FROM kmen ORDER BY id");
+				
 				Statement stmt = conn.createStatement();
 				){
 			while (z.next()) 
 			{
-				boolean b = true;
-				while (k.next())
+				try(ResultSet k = conn.createStatement().executeQuery("SELECT id,jmeno,mnozstvi FROM kmen ORDER BY id");)
 				{
-					if(k.getInt(1)==z.getInt(1))
+					boolean b = true;
+					while (k.next())
 					{
-						if(k.getInt(3)+z.getInt(3)>=0)
+						if(k.getInt(1)==z.getInt(1))
 						{
-							stmt.execute(DatabaseFacade.updateKmen(z.getInt(1), z.getInt(3), k.getInt(3)));
-							k.refreshRow();
-							stmt.execute(DatabaseFacade.createHistory(z.getInt(1), z.getInt(3), true, k.getString(2)));
-							stmt.execute(DatabaseFacade.zmenaZpracovana(z.getInt(4)));
-							LOGGER.debug("Added to "+ k.getString(2));
+							if(k.getInt(3)+z.getInt(3)>=0)
+							{
+								stmt.execute(DatabaseFacade.updateKmen(z.getInt(1), z.getInt(3), k.getInt(3)));
+								stmt.execute(DatabaseFacade.createHistory(z.getInt(1), z.getInt(3), true, k.getString(2)));
+								stmt.execute(DatabaseFacade.zmenaZpracovana(z.getInt(4)));
+								LOGGER.debug("Added to "+ k.getString(2));
+							}
+							else
+							{
+								stmt.execute(DatabaseFacade.createHistory(z.getInt(1), z.getInt(3), false, k.getString(2)));
+								stmt.execute(DatabaseFacade.zmenaZpracovana(z.getInt(4)));
+								LOGGER.debug("Not enough "+ k.getString(2));
+							}
+							b=false;
+							break;
 						}
-						else
-						{
-							stmt.execute(DatabaseFacade.createHistory(z.getInt(1), z.getInt(3), false, k.getString(2)));
-							stmt.execute(DatabaseFacade.zmenaZpracovana(z.getInt(4)));
-							LOGGER.debug("Not enough "+ k.getString(2));
-						}
-						b=false;
-						break;
 					}
+					if(b)
+					{
+						stmt.execute(DatabaseFacade.createKmen(z.getInt(1), z.getString(2), z.getInt(3)));
+						stmt.execute(DatabaseFacade.createHistory(z.getInt(1), z.getInt(3), true, z.getString(2)));
+						stmt.execute(DatabaseFacade.zmenaZpracovana(z.getInt(4)));
+						LOGGER.debug("Created "+z.getString(2));
+					}
+				} catch (SQLException e) {
+					LOGGER.error(e);
 				}
-				if(b)
-				{
-					stmt.execute(DatabaseFacade.createKmen(z.getInt(1), z.getString(2), z.getInt(3)));
-					k.refreshRow();
-					stmt.execute(DatabaseFacade.createHistory(z.getInt(1), z.getInt(3), true, z.getString(2)));
-					stmt.execute(DatabaseFacade.zmenaZpracovana(z.getInt(4)));
-					LOGGER.debug("Created "+z.getString(2));
-				}
-				k.beforeFirst();
 				LOGGER.debug("Chenge finished");
 			}
 		} catch (SQLException e) {
