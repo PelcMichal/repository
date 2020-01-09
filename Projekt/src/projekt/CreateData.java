@@ -23,7 +23,7 @@ public class CreateData {
 				Statement stmt = conn.createStatement();	
 				) {
 			DatabaseFacade.tryToCreate(conn.createStatement());
-			
+			stmt.execute("drop table kmen");
 			stmt.execute(DatabaseFacade.createZmena(0, "lopata", 0));
 			stmt.execute(DatabaseFacade.createZmena(1, "krumpac", 0));
 			stmt.execute(DatabaseFacade.createZmena(2, "vozicek", 0));
