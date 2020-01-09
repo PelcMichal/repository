@@ -195,7 +195,7 @@ public class DatabaseFacade {
 	{
 		try (
 				ResultSet z = conn.createStatement().executeQuery("SELECT id_kmen,jmeno,zmena_mnozstvi,id FROM zmeny WHERE zpracovano = false");
-				ResultSet k = conn.createStatement().executeQuery("SELECT id,jmeno,mnozstvi FROM kmen ORDER BY id");
+				ResultSet k = conn.createStatement( ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY ).executeQuery("SELECT id,jmeno,mnozstvi FROM kmen ORDER BY id");
 				Statement stmt = conn.createStatement();
 				){
 			while (z.next()) 
@@ -208,6 +208,7 @@ public class DatabaseFacade {
 						if(k.getInt(3)+z.getInt(3)>=0)
 						{
 							stmt.execute(DatabaseFacade.updateKmen(z.getInt(1), z.getInt(3), k.getInt(3)));
+							k.refreshRow();
 							stmt.execute(DatabaseFacade.createHistory(z.getInt(1), z.getInt(3), true, k.getString(2)));
 							stmt.execute(DatabaseFacade.zmenaZpracovana(z.getInt(4)));
 							LOGGER.debug("Added to "+ k.getString(2));
@@ -225,6 +226,7 @@ public class DatabaseFacade {
 				if(b)
 				{
 					stmt.execute(DatabaseFacade.createKmen(z.getInt(1), z.getString(2), z.getInt(3)));
+					k.refreshRow();
 					stmt.execute(DatabaseFacade.createHistory(z.getInt(1), z.getInt(3), true, z.getString(2)));
 					stmt.execute(DatabaseFacade.zmenaZpracovana(z.getInt(4)));
 					LOGGER.debug("Created "+z.getString(2));
