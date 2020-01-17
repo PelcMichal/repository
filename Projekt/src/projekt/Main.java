@@ -21,7 +21,7 @@ public class Main {
 		try (Connection conn = DriverManager.getConnection(config.DatabaseConfig.getUrl(), config.DatabaseFileUtils.getInstance().getProperties());){
 			DatabaseFacade.tryToCreate(conn.createStatement());
 			DatabaseFacade.provedZmeny(conn);
-			
+			System.out.println("Blbost");			
 		} catch (SQLException e) {
 			LOGGER.error(e);
 		}
