@@ -1,0 +1,1399 @@
+2019-12-12 14:43:27,430 DEBUG database.Database.main(Database.java:22) *** BEGIN *** 
+2019-12-12 14:43:27,437 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 14:43:27,437 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-12 14:43:27,438 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-12 14:43:27,439 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 14:43:27,442 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-12 14:43:27,443 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-12 14:43:27,500 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 14:43:27,500 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 14:43:27,501 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 14:43:27,501 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-12 14:43:27,501 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-12 14:43:27,501 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 14:43:27,501 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 14:43:27,501 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 14:43:27,502 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-12 14:43:27,504 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-12 14:43:27,504 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 14:43:27,505 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 14:43:27,505 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 14:43:27,505 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-12 14:43:27,505 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-12 14:43:27,505 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 14:43:27,505 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 14:43:27,505 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 14:43:27,505 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-12 14:43:27,506 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-12 14:43:28,337 DEBUG database.Database.main(Database.java:55) *** END *** 
+2019-12-12 14:43:29,221 DEBUG database.Database.main(Database.java:22) *** BEGIN *** 
+2019-12-12 14:43:29,228 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 14:43:29,228 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-12 14:43:29,228 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-12 14:43:29,229 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 14:43:29,232 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-12 14:43:29,233 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-12 14:43:29,290 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 14:43:29,290 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 14:43:29,290 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 14:43:29,290 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-12 14:43:29,291 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-12 14:43:29,291 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 14:43:29,291 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 14:43:29,291 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 14:43:29,291 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-12 14:43:29,294 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-12 14:43:29,294 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 14:43:29,294 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 14:43:29,295 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 14:43:29,295 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-12 14:43:29,295 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-12 14:43:29,295 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 14:43:29,295 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 14:43:29,295 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 14:43:29,295 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-12 14:43:29,295 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-12 14:43:30,160 DEBUG database.Database.main(Database.java:55) *** END *** 
+2019-12-12 14:43:30,608 DEBUG database.Database.main(Database.java:22) *** BEGIN *** 
+2019-12-12 14:43:30,615 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 14:43:30,615 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-12 14:43:30,616 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-12 14:43:30,616 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 14:43:30,620 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-12 14:43:30,620 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-12 14:43:30,676 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 14:43:30,677 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 14:43:30,677 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 14:43:30,677 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-12 14:43:30,677 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-12 14:43:30,677 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 14:43:30,677 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 14:43:30,677 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 14:43:30,678 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-12 14:43:30,683 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-12 14:43:30,683 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 14:43:30,684 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 14:43:30,684 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 14:43:30,684 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-12 14:43:30,684 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-12 14:43:30,684 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 14:43:30,684 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 14:43:30,685 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 14:43:30,685 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-12 14:43:30,685 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-12 14:43:31,542 DEBUG database.Database.main(Database.java:55) *** END *** 
+2019-12-12 14:43:33,291 DEBUG database.Database.main(Database.java:22) *** BEGIN *** 
+2019-12-12 14:43:33,301 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 14:43:33,301 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-12 14:43:33,301 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-12 14:43:33,302 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 14:43:33,306 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-12 14:43:33,306 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-12 14:43:33,363 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 14:43:33,363 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 14:43:33,363 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 14:43:33,363 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-12 14:43:33,363 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-12 14:43:33,364 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 14:43:33,364 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 14:43:33,364 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 14:43:33,364 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-12 14:43:33,367 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-12 14:43:33,367 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 14:43:33,367 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 14:43:33,367 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 14:43:33,367 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-12 14:43:33,368 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-12 14:43:33,368 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 14:43:33,368 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 14:43:33,368 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 14:43:33,368 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-12 14:43:33,368 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-12 14:43:34,211 DEBUG database.Database.main(Database.java:55) *** END *** 
+2019-12-12 14:52:28,338 DEBUG database.Database.main(Database.java:22) *** BEGIN *** 
+2019-12-12 14:52:28,346 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 14:52:28,346 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-12 14:52:28,346 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-12 14:52:28,347 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 14:52:28,352 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-12 14:52:28,352 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-12 14:52:28,410 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 14:52:28,411 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 14:52:28,411 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 14:52:28,411 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-12 14:52:28,411 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-12 14:52:28,411 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 14:52:28,411 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 14:52:28,412 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 14:52:28,412 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-12 14:52:28,415 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-12 14:52:28,415 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 14:52:28,415 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 14:52:28,415 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 14:52:28,415 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-12 14:52:28,415 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-12 14:52:28,415 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 14:52:28,416 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 14:52:28,416 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 14:52:28,416 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-12 14:52:28,416 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-12 14:52:29,219 DEBUG database.Database.main(Database.java:55) *** END *** 
+2019-12-12 14:56:33,352 DEBUG database.Database.main(Database.java:22) *** BEGIN *** 
+2019-12-12 14:56:33,359 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 14:56:33,359 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-12 14:56:33,359 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-12 14:56:33,360 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 14:56:33,363 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-12 14:56:33,364 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-12 14:56:33,423 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 14:56:33,423 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 14:56:33,423 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 14:56:33,423 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-12 14:56:33,423 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-12 14:56:33,424 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 14:56:33,424 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 14:56:33,424 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 14:56:33,424 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-12 14:56:33,430 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-12 14:56:33,430 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 14:56:33,430 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 14:56:33,431 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 14:56:33,431 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-12 14:56:33,431 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-12 14:56:33,431 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 14:56:33,431 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 14:56:33,431 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 14:56:33,431 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-12 14:56:33,431 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-12 14:56:34,256 DEBUG database.Database.main(Database.java:55) *** END *** 
+2019-12-12 15:16:59,081 DEBUG database.Database.main(Database.java:22) *** BEGIN *** 
+2019-12-12 15:16:59,088 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 15:16:59,089 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-12 15:16:59,089 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-12 15:16:59,089 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 15:16:59,093 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-12 15:16:59,093 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-12 15:16:59,151 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 15:16:59,151 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 15:16:59,151 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 15:16:59,152 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-12 15:16:59,152 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-12 15:16:59,152 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 15:16:59,153 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 15:16:59,153 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 15:16:59,153 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-12 15:16:59,159 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-12 15:16:59,159 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 15:16:59,160 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 15:16:59,160 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 15:16:59,160 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-12 15:16:59,160 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-12 15:16:59,161 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 15:16:59,161 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 15:16:59,161 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 15:16:59,161 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-12 15:16:59,161 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-12 15:16:59,978 DEBUG database.Database.main(Database.java:55) *** END *** 
+2019-12-12 15:17:36,872 DEBUG database.Database.main(Database.java:22) *** BEGIN *** 
+2019-12-12 15:17:36,879 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 15:17:36,879 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-12 15:17:36,880 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-12 15:17:36,880 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 15:17:36,884 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-12 15:17:36,884 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-12 15:17:36,941 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 15:17:36,941 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 15:17:36,941 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 15:17:36,941 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-12 15:17:36,942 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-12 15:17:36,942 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 15:17:36,942 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 15:17:36,942 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 15:17:36,942 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-12 15:17:36,948 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-12 15:17:36,948 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 15:17:36,948 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 15:17:36,948 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 15:17:36,948 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-12 15:17:36,948 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-12 15:17:36,949 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 15:17:36,949 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 15:17:36,949 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 15:17:36,949 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-12 15:17:36,949 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-12 15:17:37,729 DEBUG database.Database.main(Database.java:55) *** END *** 
+2019-12-12 15:19:19,130 DEBUG database.Database.main(Database.java:22) *** BEGIN *** 
+2019-12-12 15:19:19,139 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 15:19:19,139 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-12 15:19:19,140 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-12 15:19:19,141 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 15:19:19,146 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-12 15:19:19,146 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-12 15:19:19,255 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 15:19:19,255 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 15:19:19,256 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 15:19:19,256 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-12 15:19:19,256 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-12 15:19:19,257 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 15:19:19,257 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 15:19:19,257 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 15:19:19,257 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-12 15:19:19,264 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-12 15:19:19,264 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 15:19:19,264 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 15:19:19,265 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 15:19:19,265 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-12 15:19:19,265 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-12 15:19:19,265 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 15:19:19,265 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 15:19:19,265 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 15:19:19,265 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-12 15:19:19,265 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-12 15:19:19,788 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 15:19:19,789 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 15:19:19,789 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 15:19:19,789 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: Table 
+2019-12-12 15:19:19,789 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3.user3 
+2019-12-12 15:19:20,038 DEBUG database.Database.main(Database.java:55) *** END *** 
+2019-12-12 15:20:13,042 DEBUG database.Database.main(Database.java:22) *** BEGIN *** 
+2019-12-12 15:20:13,049 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 15:20:13,050 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-12 15:20:13,050 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-12 15:20:13,051 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 15:20:13,054 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-12 15:20:13,054 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-12 15:20:13,118 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 15:20:13,119 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 15:20:13,119 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 15:20:13,119 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-12 15:20:13,119 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-12 15:20:13,119 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 15:20:13,119 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 15:20:13,120 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 15:20:13,120 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-12 15:20:13,122 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-12 15:20:13,123 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 15:20:13,123 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 15:20:13,123 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 15:20:13,123 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-12 15:20:13,123 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-12 15:20:13,123 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 15:20:13,124 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 15:20:13,124 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 15:20:13,124 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-12 15:20:13,124 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-12 15:20:13,611 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 15:20:13,611 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 15:20:13,611 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 15:20:13,611 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: Table 
+2019-12-12 15:20:13,612 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3.user3 
+2019-12-12 15:20:13,851 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 15:20:13,851 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 15:20:13,852 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 15:20:13,852 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: Table 
+2019-12-12 15:20:13,852 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3.user3 
+2019-12-12 15:20:13,887 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 15:20:13,887 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 15:20:13,888 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 15:20:13,888 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: Table 
+2019-12-12 15:20:13,888 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3.user3 
+2019-12-12 15:20:13,893 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 15:20:13,893 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 15:20:13,894 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 15:20:13,895 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: Table 
+2019-12-12 15:20:13,895 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3.user3 
+2019-12-12 15:20:13,899 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 15:20:13,899 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 15:20:13,899 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 15:20:13,900 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: Table 
+2019-12-12 15:20:13,900 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3.user3 
+2019-12-12 15:20:13,955 DEBUG database.Database.main(Database.java:55) *** END *** 
+2019-12-12 15:35:49,678 DEBUG database.Database.main(Database.java:22) *** BEGIN *** 
+2019-12-12 15:35:49,686 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 15:35:49,686 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-12 15:35:49,686 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-12 15:35:49,687 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 15:35:49,692 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-12 15:35:49,692 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-12 15:35:49,759 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 15:35:49,759 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 15:35:49,760 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 15:35:49,760 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-12 15:35:49,760 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-12 15:35:49,760 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 15:35:49,760 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 15:35:49,760 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 15:35:49,761 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-12 15:35:49,763 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-12 15:35:49,764 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 15:35:49,764 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 15:35:49,764 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 15:35:49,765 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-12 15:35:49,765 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-12 15:35:49,765 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 15:35:49,765 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 15:35:49,765 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 15:35:49,765 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-12 15:35:49,765 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-12 15:35:50,344 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 15:35:50,344 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 15:35:50,344 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 15:35:50,344 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: Table 
+2019-12-12 15:35:50,344 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3.user3 
+2019-12-12 15:35:50,598 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 15:35:50,598 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 15:35:50,599 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 15:35:50,599 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: Table 
+2019-12-12 15:35:50,599 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3.user3 
+2019-12-12 15:35:50,632 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 15:35:50,632 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 15:35:50,632 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 15:35:50,633 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: Table 
+2019-12-12 15:35:50,633 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3.user3 
+2019-12-12 15:35:50,637 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 15:35:50,637 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 15:35:50,638 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 15:35:50,638 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: Table 
+2019-12-12 15:35:50,639 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3.user3 
+2019-12-12 15:35:50,644 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 15:35:50,645 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-12 15:35:50,645 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 15:35:50,645 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: Table 
+2019-12-12 15:35:50,645 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3.user3 
+2019-12-12 15:35:50,700 DEBUG database.Database.main(Database.java:55) *** END *** 
+2019-12-13 09:30:24,425 DEBUG database.Database.main(Database.java:23) *** BEGIN *** 
+2019-12-13 09:30:24,473 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 09:30:24,473 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-13 09:30:24,473 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-13 09:30:24,484 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 09:30:24,489 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-13 09:30:24,489 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-13 09:30:24,583 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 09:30:24,584 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 09:30:24,584 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 09:30:24,585 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-13 09:30:24,585 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-13 09:30:24,585 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 09:30:24,585 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 09:30:24,586 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 09:30:24,591 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-13 09:30:24,603 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-13 09:30:24,604 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 09:30:24,604 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 09:30:24,605 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 09:30:24,605 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-13 09:30:24,605 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 09:30:24,605 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 09:30:24,605 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 09:30:24,605 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 09:30:24,606 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-13 09:30:24,606 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 09:30:25,151 DEBUG database.Database.main(Database.java:39) Qurry 
+2019-12-13 09:30:25,424 DEBUG database.Database.main(Database.java:71) *** END *** 
+2019-12-13 09:31:23,588 DEBUG database.Database.main(Database.java:23) *** BEGIN *** 
+2019-12-13 09:31:23,595 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 09:31:23,595 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-13 09:31:23,596 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-13 09:31:23,596 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 09:31:23,600 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-13 09:31:23,600 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-13 09:31:23,658 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 09:31:23,658 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 09:31:23,659 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 09:31:23,659 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-13 09:31:23,659 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-13 09:31:23,659 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 09:31:23,660 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 09:31:23,660 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 09:31:23,660 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-13 09:31:23,666 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-13 09:31:23,666 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 09:31:23,666 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 09:31:23,667 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 09:31:23,667 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-13 09:31:23,667 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 09:31:23,667 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 09:31:23,667 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 09:31:23,667 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 09:31:23,667 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-13 09:31:23,667 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 09:31:24,141 DEBUG database.Database.main(Database.java:39) Qurry 
+2019-12-13 09:31:24,556 DEBUG database.Database.main(Database.java:71) *** END *** 
+2019-12-13 09:35:04,970 DEBUG database.Database.main(Database.java:23) *** BEGIN *** 
+2019-12-13 09:35:04,981 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 09:35:04,981 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-13 09:35:04,981 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-13 09:35:04,982 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 09:35:04,986 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-13 09:35:04,986 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-13 09:35:05,046 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 09:35:05,046 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 09:35:05,047 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 09:35:05,047 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-13 09:35:05,047 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-13 09:35:05,047 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 09:35:05,047 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 09:35:05,047 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 09:35:05,048 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-13 09:35:05,050 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-13 09:35:05,050 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 09:35:05,051 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 09:35:05,051 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 09:35:05,051 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-13 09:35:05,051 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 09:35:05,051 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 09:35:05,051 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 09:35:05,051 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 09:35:05,052 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-13 09:35:05,052 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 09:35:05,563 DEBUG database.Database.main(Database.java:39) Qurry 
+2019-12-13 09:35:05,943 DEBUG database.Database.main(Database.java:70) *** END *** 
+2019-12-13 09:35:26,721 DEBUG database.Database.main(Database.java:23) *** BEGIN *** 
+2019-12-13 09:35:26,729 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 09:35:26,730 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-13 09:35:26,730 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-13 09:35:26,730 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 09:35:26,734 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-13 09:35:26,735 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-13 09:35:26,798 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 09:35:26,798 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 09:35:26,798 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 09:35:26,799 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-13 09:35:26,799 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-13 09:35:26,799 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 09:35:26,799 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 09:35:26,799 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 09:35:26,799 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-13 09:35:26,805 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-13 09:35:26,805 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 09:35:26,805 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 09:35:26,806 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 09:35:26,806 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-13 09:35:26,806 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 09:35:26,807 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 09:35:26,807 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 09:35:26,807 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 09:35:26,807 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-13 09:35:26,807 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 09:35:27,305 DEBUG database.Database.main(Database.java:39) Qurry 
+2019-12-13 09:35:27,697 DEBUG database.Database.main(Database.java:70) *** END *** 
+2019-12-13 09:35:38,918 DEBUG database.Database.main(Database.java:23) *** BEGIN *** 
+2019-12-13 09:35:38,926 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 09:35:38,926 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-13 09:35:38,927 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-13 09:35:38,927 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 09:35:38,931 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-13 09:35:38,931 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-13 09:35:38,995 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 09:35:38,995 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 09:35:38,995 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 09:35:38,995 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-13 09:35:38,996 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-13 09:35:38,996 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 09:35:38,996 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 09:35:38,996 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 09:35:38,996 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-13 09:35:38,999 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-13 09:35:38,999 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 09:35:38,999 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 09:35:39,000 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 09:35:39,000 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-13 09:35:39,000 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 09:35:39,000 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 09:35:39,000 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 09:35:39,000 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 09:35:39,000 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-13 09:35:39,001 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 09:35:39,499 DEBUG database.Database.main(Database.java:39) Qurry 
+2019-12-13 09:35:39,885 DEBUG database.Database.main(Database.java:70) *** END *** 
+2019-12-13 10:22:22,795 DEBUG database.Database.main(Database.java:23) *** BEGIN *** 
+2019-12-13 10:22:22,806 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:22:22,807 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-13 10:22:22,807 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-13 10:22:22,808 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:22:22,811 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-13 10:22:22,812 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-13 10:22:22,874 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:22:22,874 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:22:22,874 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:22:22,874 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-13 10:22:22,875 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-13 10:22:22,875 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:22:22,875 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:22:22,875 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:22:22,875 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-13 10:22:22,878 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-13 10:22:22,878 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:22:22,878 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:22:22,879 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:22:22,879 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-13 10:22:22,879 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 10:22:22,879 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:22:22,879 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:22:22,879 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:22:22,879 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-13 10:22:22,879 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 10:22:23,394 DEBUG database.Database.main(Database.java:39) Qurry 
+2019-12-13 10:22:23,703 DEBUG database.Database.main(Database.java:88) *** END *** 
+2019-12-13 10:23:10,509 DEBUG database.Database.main(Database.java:23) *** BEGIN *** 
+2019-12-13 10:23:10,517 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:23:10,517 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-13 10:23:10,517 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-13 10:23:10,518 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:23:10,522 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-13 10:23:10,522 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-13 10:23:10,589 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:23:10,589 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:23:10,589 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:23:10,590 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-13 10:23:10,590 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-13 10:23:10,590 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:23:10,590 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:23:10,590 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:23:10,590 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-13 10:23:10,596 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-13 10:23:10,596 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:23:10,597 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:23:10,597 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:23:10,597 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-13 10:23:10,597 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 10:23:10,597 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:23:10,597 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:23:10,597 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:23:10,598 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-13 10:23:10,598 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 10:23:11,093 DEBUG database.Database.main(Database.java:39) Qurry 
+2019-12-13 10:23:11,334 DEBUG database.Database.main(Database.java:88) *** END *** 
+2019-12-13 10:33:08,585 DEBUG database.Database.main(Database.java:24) *** BEGIN *** 
+2019-12-13 10:33:08,594 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:33:08,594 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-13 10:33:08,595 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-13 10:33:08,595 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:33:08,599 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-13 10:33:08,599 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-13 10:33:08,664 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:33:08,664 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:33:08,664 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:33:08,664 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-13 10:33:08,665 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-13 10:33:08,665 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:33:08,665 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:33:08,665 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:33:08,665 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-13 10:33:08,668 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-13 10:33:08,668 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:33:08,668 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:33:08,668 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:33:08,669 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-13 10:33:08,669 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 10:33:08,669 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:33:08,669 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:33:08,669 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:33:08,669 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-13 10:33:08,669 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 10:33:09,230 DEBUG database.Database.main(Database.java:40) Qurry 
+2019-12-13 10:33:09,506 DEBUG database.Database.main(Database.java:117) *** END *** 
+2019-12-13 10:34:52,875 DEBUG database.Database.main(Database.java:24) *** BEGIN *** 
+2019-12-13 10:34:52,884 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:34:52,884 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-13 10:34:52,884 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-13 10:34:52,885 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:34:52,888 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-13 10:34:52,889 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-13 10:34:52,951 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:34:52,952 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:34:52,952 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:34:52,952 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-13 10:34:52,952 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-13 10:34:52,952 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:34:52,953 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:34:52,953 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:34:52,953 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-13 10:34:52,956 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-13 10:34:52,956 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:34:52,956 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:34:52,956 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:34:52,956 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-13 10:34:52,956 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 10:34:52,957 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:34:52,957 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:34:52,957 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:34:52,957 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-13 10:34:52,957 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 10:34:53,450 DEBUG database.Database.main(Database.java:40) Qurry 
+2019-12-13 10:34:53,703 DEBUG database.Database.main(Database.java:117) *** END *** 
+2019-12-13 10:35:02,387 DEBUG database.Database.main(Database.java:24) *** BEGIN *** 
+2019-12-13 10:35:02,394 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:35:02,395 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-13 10:35:02,395 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-13 10:35:02,396 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:35:02,401 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-13 10:35:02,401 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-13 10:35:02,484 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:35:02,484 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:35:02,484 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:35:02,485 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-13 10:35:02,485 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-13 10:35:02,485 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:35:02,485 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:35:02,486 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:35:02,486 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-13 10:35:02,492 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-13 10:35:02,492 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:35:02,492 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:35:02,493 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:35:02,493 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-13 10:35:02,493 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 10:35:02,493 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:35:02,493 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:35:02,493 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:35:02,494 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-13 10:35:02,494 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 10:35:03,013 DEBUG database.Database.main(Database.java:40) Qurry 
+2019-12-13 10:35:03,274 DEBUG database.Database.main(Database.java:117) *** END *** 
+2019-12-13 10:36:19,668 DEBUG database.Database.main(Database.java:24) *** BEGIN *** 
+2019-12-13 10:36:19,676 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:36:19,677 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-13 10:36:19,677 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-13 10:36:19,678 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:36:19,681 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-13 10:36:19,682 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-13 10:36:19,745 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:36:19,745 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:36:19,745 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:36:19,745 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-13 10:36:19,745 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-13 10:36:19,746 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:36:19,746 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:36:19,746 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:36:19,746 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-13 10:36:19,749 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-13 10:36:19,749 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:36:19,749 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:36:19,749 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:36:19,750 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-13 10:36:19,750 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 10:36:19,750 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:36:19,750 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:36:19,750 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:36:19,750 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-13 10:36:19,750 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 10:36:20,239 DEBUG database.Database.main(Database.java:40) Qurry 
+2019-12-13 10:36:20,514 DEBUG database.Database.main(Database.java:117) *** END *** 
+2019-12-13 10:39:20,985 DEBUG database.Database.main(Database.java:24) *** BEGIN *** 
+2019-12-13 10:39:20,991 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:39:20,992 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-13 10:39:20,992 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-13 10:39:20,993 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:39:20,997 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-13 10:39:20,997 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-13 10:39:21,053 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:39:21,053 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:39:21,053 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:39:21,054 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-13 10:39:21,054 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-13 10:39:21,054 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:39:21,054 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:39:21,054 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:39:21,054 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-13 10:39:21,057 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-13 10:39:21,057 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:39:21,058 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:39:21,058 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:39:21,058 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-13 10:39:21,058 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 10:39:21,058 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:39:21,058 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:39:21,058 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:39:21,058 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-13 10:39:21,059 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 10:39:21,538 DEBUG database.Database.main(Database.java:40) Qurry 
+2019-12-13 10:39:21,821 DEBUG database.Database.main(Database.java:117) *** END *** 
+2019-12-13 10:40:09,421 DEBUG database.Database.main(Database.java:24) *** BEGIN *** 
+2019-12-13 10:40:09,428 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:40:09,428 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-13 10:40:09,429 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-13 10:40:09,429 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:40:09,433 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-13 10:40:09,433 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-13 10:40:09,488 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:40:09,488 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:40:09,489 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:40:09,489 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-13 10:40:09,489 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-13 10:40:09,489 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:40:09,489 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:40:09,489 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:40:09,489 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-13 10:40:09,492 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-13 10:40:09,492 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:40:09,493 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:40:09,493 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:40:09,493 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-13 10:40:09,493 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 10:40:09,493 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:40:09,493 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:40:09,493 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:40:09,494 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-13 10:40:09,494 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 10:40:09,988 DEBUG database.Database.main(Database.java:40) Qurry 
+2019-12-13 10:40:10,250 DEBUG database.Database.main(Database.java:120) *** END *** 
+2019-12-13 10:47:50,339 DEBUG database.Database.main(Database.java:24) *** BEGIN *** 
+2019-12-13 10:47:50,347 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:47:50,347 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-13 10:47:50,348 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-13 10:47:50,349 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:47:50,353 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-13 10:47:50,353 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-13 10:47:50,412 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:47:50,412 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:47:50,412 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:47:50,412 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-13 10:47:50,413 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-13 10:47:50,413 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:47:50,413 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:47:50,413 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:47:50,413 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-13 10:47:50,416 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-13 10:47:50,416 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:47:50,416 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:47:50,417 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:47:50,417 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-13 10:47:50,417 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 10:47:50,417 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:47:50,417 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:47:50,417 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:47:50,417 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-13 10:47:50,417 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 10:47:50,920 DEBUG database.Database.main(Database.java:40) Qurry 
+2019-12-13 10:47:51,302 DEBUG database.Database.main(Database.java:118) *** END *** 
+2019-12-13 10:49:37,421 DEBUG database.Database.main(Database.java:24) *** BEGIN *** 
+2019-12-13 10:49:37,428 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:49:37,429 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-13 10:49:37,429 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-13 10:49:37,430 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:49:37,433 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-13 10:49:37,434 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-13 10:49:37,489 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:49:37,489 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:49:37,489 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:49:37,490 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-13 10:49:37,490 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-13 10:49:37,490 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:49:37,490 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:49:37,490 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:49:37,490 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-13 10:49:37,496 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-13 10:49:37,496 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:49:37,496 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:49:37,496 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:49:37,497 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-13 10:49:37,497 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 10:49:37,497 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:49:37,497 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:49:37,497 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:49:37,497 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-13 10:49:37,497 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 10:49:38,024 DEBUG database.Database.main(Database.java:40) Qurry 
+2019-12-13 10:49:38,404 DEBUG database.Database.main(Database.java:118) *** END *** 
+2019-12-13 10:50:34,691 DEBUG database.Database.main(Database.java:24) *** BEGIN *** 
+2019-12-13 10:50:34,700 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:50:34,701 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-13 10:50:34,701 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-13 10:50:34,702 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:50:34,707 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-13 10:50:34,707 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-13 10:50:34,830 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:50:34,830 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:50:34,830 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:50:34,831 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-13 10:50:34,831 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-13 10:50:34,831 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:50:34,831 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:50:34,832 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:50:34,832 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-13 10:50:34,838 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-13 10:50:34,838 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:50:34,838 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:50:34,839 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:50:34,839 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-13 10:50:34,839 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 10:50:34,839 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:50:34,840 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:50:34,840 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:50:34,840 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-13 10:50:34,840 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 10:50:35,643 DEBUG database.Database.main(Database.java:40) Qurry 
+2019-12-13 10:50:36,017 DEBUG database.Database.main(Database.java:118) *** END *** 
+2019-12-13 10:50:48,372 DEBUG database.Database.main(Database.java:24) *** BEGIN *** 
+2019-12-13 10:50:48,379 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:50:48,379 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-13 10:50:48,379 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-13 10:50:48,380 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:50:48,384 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-13 10:50:48,384 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-13 10:50:48,443 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:50:48,444 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:50:48,444 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:50:48,444 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-13 10:50:48,444 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-13 10:50:48,444 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:50:48,445 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:50:48,445 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:50:48,445 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-13 10:50:48,448 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-13 10:50:48,448 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:50:48,448 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:50:48,448 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:50:48,449 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-13 10:50:48,449 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 10:50:48,449 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:50:48,449 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:50:48,449 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:50:48,449 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-13 10:50:48,449 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 10:50:48,944 DEBUG database.Database.main(Database.java:40) Qurry 
+2019-12-13 10:50:49,316 DEBUG database.Database.main(Database.java:118) *** END *** 
+2019-12-13 10:51:01,396 DEBUG database.Database.main(Database.java:24) *** BEGIN *** 
+2019-12-13 10:51:01,403 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:51:01,404 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-13 10:51:01,404 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-13 10:51:01,405 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:51:01,408 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-13 10:51:01,409 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-13 10:51:01,466 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:51:01,466 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:51:01,466 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:51:01,467 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-13 10:51:01,467 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-13 10:51:01,467 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:51:01,467 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:51:01,467 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:51:01,467 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-13 10:51:01,470 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-13 10:51:01,470 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:51:01,470 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:51:01,471 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:51:01,471 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-13 10:51:01,471 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 10:51:01,471 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:51:01,471 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:51:01,471 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:51:01,471 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-13 10:51:01,471 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 10:51:01,996 DEBUG database.Database.main(Database.java:40) Qurry 
+2019-12-13 10:51:02,366 DEBUG database.Database.main(Database.java:118) *** END *** 
+2019-12-13 10:51:52,422 DEBUG database.Database.main(Database.java:24) *** BEGIN *** 
+2019-12-13 10:51:52,431 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:51:52,432 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-13 10:51:52,432 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-13 10:51:52,433 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:51:52,438 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-13 10:51:52,438 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-13 10:51:52,571 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:51:52,571 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:51:52,571 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:51:52,571 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-13 10:51:52,572 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-13 10:51:52,572 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:51:52,572 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:51:52,572 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:51:52,572 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-13 10:51:52,578 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-13 10:51:52,578 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:51:52,578 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:51:52,579 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:51:52,579 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-13 10:51:52,579 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 10:51:52,579 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:51:52,579 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:51:52,580 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:51:52,580 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-13 10:51:52,580 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 10:51:53,093 DEBUG database.Database.main(Database.java:40) Qurry 
+2019-12-13 10:51:53,692 DEBUG database.Database.main(Database.java:119) *** END *** 
+2019-12-13 10:52:16,491 DEBUG database.Database.main(Database.java:24) *** BEGIN *** 
+2019-12-13 10:52:16,498 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:52:16,498 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-13 10:52:16,498 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-13 10:52:16,499 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:52:16,503 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-13 10:52:16,504 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-13 10:52:16,569 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:52:16,569 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:52:16,569 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:52:16,569 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-13 10:52:16,569 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-13 10:52:16,570 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:52:16,570 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:52:16,570 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:52:16,570 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-13 10:52:16,573 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-13 10:52:16,573 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:52:16,573 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:52:16,573 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:52:16,574 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-13 10:52:16,574 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 10:52:16,574 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:52:16,574 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:52:16,574 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:52:16,574 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-13 10:52:16,574 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 10:52:17,077 DEBUG database.Database.main(Database.java:40) Qurry 
+2019-12-13 10:52:17,711 DEBUG database.Database.main(Database.java:119) *** END *** 
+2019-12-13 10:52:32,927 DEBUG database.Database.main(Database.java:24) *** BEGIN *** 
+2019-12-13 10:52:32,934 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:52:32,934 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-13 10:52:32,935 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-13 10:52:32,935 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:52:32,939 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-13 10:52:32,939 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-13 10:52:32,997 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:52:32,997 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:52:32,997 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:52:32,997 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-13 10:52:32,998 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-13 10:52:32,998 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:52:32,998 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:52:32,998 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:52:32,998 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-13 10:52:33,001 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-13 10:52:33,001 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:52:33,002 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:52:33,002 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:52:33,002 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-13 10:52:33,002 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 10:52:33,002 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:52:33,002 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:52:33,002 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:52:33,002 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-13 10:52:33,003 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 10:52:33,474 DEBUG database.Database.main(Database.java:40) Qurry 
+2019-12-13 10:52:33,843 DEBUG database.Database.main(Database.java:119) *** END *** 
+2019-12-13 10:53:15,861 DEBUG database.Database.main(Database.java:24) *** BEGIN *** 
+2019-12-13 10:53:15,868 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:53:15,869 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-13 10:53:15,869 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-13 10:53:15,870 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:53:15,873 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-13 10:53:15,873 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-13 10:53:15,933 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:53:15,933 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:53:15,933 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:53:15,933 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-13 10:53:15,933 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-13 10:53:15,933 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:53:15,934 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:53:15,934 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:53:15,934 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-13 10:53:15,936 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-13 10:53:15,937 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:53:15,937 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:53:15,937 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:53:15,937 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-13 10:53:15,937 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 10:53:15,938 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:53:15,938 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:53:15,938 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:53:15,938 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-13 10:53:15,938 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 10:53:16,437 DEBUG database.Database.main(Database.java:40) Qurry 
+2019-12-13 10:53:17,144 DEBUG database.Database.main(Database.java:119) *** END *** 
+2019-12-13 10:53:39,227 DEBUG database.Database.main(Database.java:24) *** BEGIN *** 
+2019-12-13 10:53:39,234 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:53:39,235 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-13 10:53:39,235 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-13 10:53:39,236 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:53:39,239 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-13 10:53:39,239 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-13 10:53:39,301 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:53:39,301 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:53:39,301 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:53:39,301 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-13 10:53:39,302 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-13 10:53:39,302 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:53:39,302 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:53:39,302 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:53:39,302 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-13 10:53:39,305 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-13 10:53:39,305 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:53:39,306 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:53:39,306 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:53:39,306 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-13 10:53:39,306 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 10:53:39,306 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:53:39,306 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:53:39,306 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:53:39,306 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-13 10:53:39,307 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 10:53:39,776 DEBUG database.Database.main(Database.java:40) Qurry 
+2019-12-13 10:53:40,114 DEBUG database.Database.main(Database.java:119) *** END *** 
+2019-12-13 10:53:48,114 DEBUG database.Database.main(Database.java:24) *** BEGIN *** 
+2019-12-13 10:53:48,121 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:53:48,121 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-13 10:53:48,122 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-13 10:53:48,122 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:53:48,126 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-13 10:53:48,126 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-13 10:53:48,183 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:53:48,184 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:53:48,184 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:53:48,184 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-13 10:53:48,184 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-13 10:53:48,184 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:53:48,185 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:53:48,185 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:53:48,185 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-13 10:53:48,187 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-13 10:53:48,188 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:53:48,188 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:53:48,188 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:53:48,188 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-13 10:53:48,188 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 10:53:48,188 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:53:48,189 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:53:48,189 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:53:48,189 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-13 10:53:48,189 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 10:53:48,861 DEBUG database.Database.main(Database.java:40) Qurry 
+2019-12-13 10:53:49,910 DEBUG database.Database.main(Database.java:119) *** END *** 
+2019-12-13 10:53:58,127 DEBUG database.Database.main(Database.java:24) *** BEGIN *** 
+2019-12-13 10:53:58,135 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:53:58,135 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-13 10:53:58,136 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-13 10:53:58,136 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:53:58,140 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-13 10:53:58,140 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-13 10:53:58,199 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:53:58,199 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:53:58,199 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:53:58,200 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-13 10:53:58,200 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-13 10:53:58,200 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:53:58,200 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:53:58,200 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:53:58,200 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-13 10:53:58,203 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-13 10:53:58,203 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:53:58,204 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:53:58,204 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:53:58,204 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-13 10:53:58,204 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 10:53:58,204 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 10:53:58,204 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 10:53:58,204 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 10:53:58,205 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-13 10:53:58,205 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 10:53:58,677 DEBUG database.Database.main(Database.java:40) Qurry 
+2019-12-13 10:53:59,761 DEBUG database.Database.main(Database.java:119) *** END *** 
+2019-12-13 11:13:08,571 DEBUG database.Database.main(Database.java:24) *** BEGIN *** 
+2019-12-13 11:13:08,577 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 11:13:08,578 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-13 11:13:08,578 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-13 11:13:08,578 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 11:13:08,582 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-13 11:13:08,582 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-13 11:13:08,645 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 11:13:08,645 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 11:13:08,645 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 11:13:08,645 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-13 11:13:08,645 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-13 11:13:08,646 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 11:13:08,646 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 11:13:08,646 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 11:13:08,646 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-13 11:13:08,649 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-13 11:13:08,649 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 11:13:08,649 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 11:13:08,649 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 11:13:08,649 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-13 11:13:08,650 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 11:13:08,650 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 11:13:08,651 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 11:13:08,651 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 11:13:08,651 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-13 11:13:08,651 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 11:13:09,145 DEBUG database.Database.main(Database.java:40) Qurry 
+2019-12-13 11:13:09,899 DEBUG database.Database.main(Database.java:119) *** END *** 
+2019-12-13 11:16:00,733 DEBUG database.Database.main(Database.java:23) *** BEGIN *** 
+2019-12-13 11:16:00,740 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 11:16:00,740 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-13 11:16:00,740 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-13 11:16:00,741 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 11:16:00,745 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-13 11:16:00,745 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-13 11:16:00,808 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 11:16:00,808 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 11:16:00,808 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 11:16:00,808 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-13 11:16:00,809 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-13 11:16:00,809 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 11:16:00,809 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 11:16:00,809 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 11:16:00,809 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-13 11:16:00,812 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-13 11:16:00,812 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 11:16:00,812 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 11:16:00,812 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 11:16:00,813 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-13 11:16:00,813 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 11:16:00,813 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 11:16:00,813 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 11:16:00,813 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 11:16:00,813 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-13 11:16:00,814 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 11:16:01,325 DEBUG database.Database.main(Database.java:39) Qurry 
+2019-12-13 11:16:01,739 DEBUG database.Database.main(Database.java:125) *** END *** 
+2019-12-13 11:16:22,224 DEBUG database.Database.main(Database.java:23) *** BEGIN *** 
+2019-12-13 11:16:22,233 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 11:16:22,233 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-13 11:16:22,233 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-13 11:16:22,234 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 11:16:22,238 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-13 11:16:22,238 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-13 11:16:22,299 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 11:16:22,300 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 11:16:22,300 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 11:16:22,300 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-13 11:16:22,300 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-13 11:16:22,300 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 11:16:22,300 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 11:16:22,301 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 11:16:22,301 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-13 11:16:22,303 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-13 11:16:22,304 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 11:16:22,304 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 11:16:22,304 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 11:16:22,304 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-13 11:16:22,304 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 11:16:22,304 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 11:16:22,304 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 11:16:22,305 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 11:16:22,305 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-13 11:16:22,305 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 11:16:22,785 DEBUG database.Database.main(Database.java:39) Qurry 
+2019-12-13 11:16:23,651 DEBUG database.Database.main(Database.java:126) *** END *** 
+2019-12-13 11:36:28,831 DEBUG database.Database.main(Database.java:24) *** BEGIN *** 
+2019-12-13 11:36:28,838 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 11:36:28,838 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-13 11:36:28,839 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-13 11:36:28,839 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 11:36:28,844 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-13 11:36:28,844 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-13 11:36:28,898 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 11:36:28,898 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 11:36:28,899 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 11:36:28,899 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-13 11:36:28,899 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-13 11:36:28,899 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 11:36:28,899 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 11:36:28,899 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 11:36:28,900 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-13 11:36:28,902 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-13 11:36:28,902 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 11:36:28,903 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 11:36:28,903 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 11:36:28,903 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-13 11:36:28,903 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 11:36:28,903 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 11:36:28,903 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 11:36:28,903 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 11:36:28,903 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-13 11:36:28,904 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 11:36:29,871 DEBUG database.Database.main(Database.java:170) *** END *** 
+2019-12-13 11:37:20,385 DEBUG database.Database.main(Database.java:24) *** BEGIN *** 
+2019-12-13 11:37:20,392 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 11:37:20,392 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-13 11:37:20,393 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-13 11:37:20,393 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 11:37:20,397 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-13 11:37:20,397 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-13 11:37:20,454 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 11:37:20,454 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 11:37:20,454 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 11:37:20,454 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-13 11:37:20,455 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-13 11:37:20,455 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 11:37:20,455 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 11:37:20,455 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 11:37:20,455 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-13 11:37:20,461 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-13 11:37:20,461 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 11:37:20,461 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 11:37:20,461 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 11:37:20,462 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-13 11:37:20,462 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 11:37:20,462 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 11:37:20,462 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 11:37:20,462 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 11:37:20,462 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-13 11:37:20,462 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 11:37:21,446 DEBUG database.Database.main(Database.java:170) *** END *** 
+2019-12-13 11:37:43,316 DEBUG database.Database.main(Database.java:24) *** BEGIN *** 
+2019-12-13 11:37:43,323 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 11:37:43,324 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-13 11:37:43,324 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-13 11:37:43,325 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 11:37:43,328 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-13 11:37:43,329 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-13 11:37:43,385 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 11:37:43,385 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 11:37:43,385 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 11:37:43,386 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-13 11:37:43,386 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-13 11:37:43,386 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 11:37:43,386 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 11:37:43,386 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 11:37:43,386 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-13 11:37:43,389 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-13 11:37:43,389 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 11:37:43,389 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 11:37:43,390 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 11:37:43,390 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-13 11:37:43,390 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 11:37:43,390 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 11:37:43,390 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 11:37:43,390 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 11:37:43,391 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-13 11:37:43,391 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 11:37:44,337 DEBUG database.Database.main(Database.java:170) *** END *** 
+2019-12-13 11:38:26,807 DEBUG database.Database.main(Database.java:24) *** BEGIN *** 
+2019-12-13 11:38:26,814 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 11:38:26,815 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-13 11:38:26,815 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-13 11:38:26,815 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 11:38:26,819 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-13 11:38:26,819 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-13 11:38:26,891 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 11:38:26,891 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 11:38:26,891 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 11:38:26,891 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-13 11:38:26,891 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-13 11:38:26,892 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 11:38:26,892 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 11:38:26,892 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 11:38:26,892 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-13 11:38:26,896 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-13 11:38:26,897 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 11:38:26,898 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 11:38:26,898 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 11:38:26,898 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-13 11:38:26,899 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 11:38:26,899 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 11:38:26,899 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 11:38:26,899 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 11:38:26,899 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-13 11:38:26,899 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 11:38:27,868 DEBUG database.Database.main(Database.java:170) *** END *** 
+2019-12-13 11:40:28,686 DEBUG database.Database.main(Database.java:24) *** BEGIN *** 
+2019-12-13 11:40:28,693 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 11:40:28,693 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-13 11:40:28,693 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-13 11:40:28,694 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 11:40:28,699 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-13 11:40:28,699 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-13 11:40:28,758 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 11:40:28,759 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 11:40:28,759 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 11:40:28,759 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-13 11:40:28,759 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-13 11:40:28,759 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 11:40:28,760 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 11:40:28,760 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 11:40:28,760 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-13 11:40:28,766 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-13 11:40:28,766 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 11:40:28,766 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 11:40:28,767 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 11:40:28,767 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-13 11:40:28,767 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 11:40:28,767 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 11:40:28,767 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 11:40:28,768 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 11:40:28,768 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-13 11:40:28,768 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 11:40:29,625 DEBUG database.Database.main(Database.java:170) *** END *** 
+2019-12-13 13:07:03,106 DEBUG database.Database.main(Database.java:24) *** BEGIN *** 
+2019-12-13 13:07:03,113 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 13:07:03,114 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-13 13:07:03,114 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-13 13:07:03,114 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 13:07:03,118 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-13 13:07:03,118 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-13 13:07:03,181 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 13:07:03,181 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 13:07:03,182 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 13:07:03,182 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-13 13:07:03,182 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-13 13:07:03,182 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 13:07:03,182 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 13:07:03,183 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 13:07:03,183 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-13 13:07:03,187 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-13 13:07:03,187 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 13:07:03,188 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 13:07:03,193 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 13:07:03,193 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-13 13:07:03,193 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 13:07:03,193 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 13:07:03,193 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 13:07:03,193 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 13:07:03,193 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-13 13:07:03,194 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 13:07:03,770 DEBUG database.Database.main(Database.java:204) *** END *** 
+2019-12-13 13:09:01,949 DEBUG database.Database.main(Database.java:24) *** BEGIN *** 
+2019-12-13 13:09:01,957 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 13:09:01,958 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-13 13:09:01,958 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-13 13:09:01,959 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 13:09:01,963 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-13 13:09:01,964 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-13 13:09:02,031 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 13:09:02,031 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 13:09:02,032 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 13:09:02,032 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-13 13:09:02,032 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-13 13:09:02,032 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 13:09:02,032 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 13:09:02,032 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 13:09:02,032 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-13 13:09:02,035 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-13 13:09:02,035 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 13:09:02,036 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 13:09:02,036 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 13:09:02,036 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-13 13:09:02,036 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 13:09:02,036 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 13:09:02,036 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 13:09:02,037 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 13:09:02,037 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-13 13:09:02,037 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 13:09:03,209 DEBUG database.Database.main(Database.java:204) *** END *** 
+2019-12-13 13:09:16,585 DEBUG database.Database.main(Database.java:24) *** BEGIN *** 
+2019-12-13 13:09:16,593 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 13:09:16,594 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-13 13:09:16,594 DEBUG property.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-13 13:09:16,595 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 13:09:16,598 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: DRIVER_CLASS 
+2019-12-13 13:09:16,599 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: com.ibm.as400.access.AS400JDBCDriver 
+2019-12-13 13:09:16,663 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 13:09:16,663 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 13:09:16,663 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 13:09:16,663 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_PROTOCOL 
+2019-12-13 13:09:16,664 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: jdbc:as400:// 
+2019-12-13 13:09:16,664 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 13:09:16,664 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 13:09:16,664 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 13:09:16,664 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: URL_SYSTEM 
+2019-12-13 13:09:16,667 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: 193.179.195.134 
+2019-12-13 13:09:16,667 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 13:09:16,668 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 13:09:16,668 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 13:09:16,668 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_NAME 
+2019-12-13 13:09:16,668 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 13:09:16,668 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-13 13:09:16,668 DEBUG property.PropertyFileUtils.getInstance(PropertyFileUtils.java:41) Old instance 
+2019-12-13 13:09:16,668 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-13 13:09:16,668 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: USER_PASSWORD 
+2019-12-13 13:09:16,669 DEBUG property.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: user3 
+2019-12-13 13:09:18,043 DEBUG database.Database.main(Database.java:204) *** END *** 

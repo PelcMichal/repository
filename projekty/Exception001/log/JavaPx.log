@@ -1,0 +1,36 @@
+2019-12-12 11:06:50,318 DEBUG Exception001.Exception001.main(Exception001.java:14) *** BIGIN *** 
+2019-12-12 11:06:50,323 DEBUG Exception001.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 11:06:50,323 DEBUG Exception001.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-12 11:06:50,323 DEBUG Exception001.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-12 11:06:50,324 DEBUG Exception001.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 11:06:50,324 DEBUG Exception001.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: K1 
+2019-12-12 11:06:50,328 DEBUG Exception001.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: K1 neco 
+2019-12-12 11:06:50,329 DEBUG Exception001.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 11:06:50,329 DEBUG Exception001.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: K2 
+2019-12-12 11:06:50,329 DEBUG Exception001.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: K2 neco dalsiho 
+2019-12-12 11:06:50,330 DEBUG Exception001.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 11:06:50,330 DEBUG Exception001.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-12 11:06:50,330 DEBUG Exception001.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-12 11:06:50,331 DEBUG Exception001.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 11:06:50,331 DEBUG Exception001.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: K3 
+2019-12-12 11:06:50,331 DEBUG Exception001.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: K3 neco este jiniho 
+2019-12-12 11:06:50,334 DEBUG Exception001.Exception001.main(Exception001.java:33) *** END *** 
+2019-12-12 11:31:44,218 DEBUG Exception001.Exception001.main(Exception001.java:14) *** BIGIN *** 
+2019-12-12 11:31:44,223 DEBUG Exception001.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 11:31:44,223 DEBUG Exception001.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-12 11:31:44,224 DEBUG Exception001.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-12 11:31:44,224 DEBUG Exception001.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 11:31:44,225 DEBUG Exception001.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: K1 
+2019-12-12 11:31:44,229 DEBUG Exception001.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: K1 neco 
+2019-12-12 11:31:44,229 DEBUG Exception001.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 11:31:44,230 DEBUG Exception001.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: K2 
+2019-12-12 11:31:44,230 DEBUG Exception001.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: K2 neco dalsiho 
+2019-12-12 11:31:44,230 DEBUG Exception001.PropertyFileUtils.getInstance(PropertyFileUtils.java:33) bigin 
+2019-12-12 11:31:44,231 DEBUG Exception001.PropertyFileUtils.getInstance(PropertyFileUtils.java:36) New instance 
+2019-12-12 11:31:44,231 DEBUG Exception001.PropertyFileUtils.<init>(PropertyFileUtils.java:17) bigin 
+2019-12-12 11:31:44,231 DEBUG Exception001.PropertyFileUtils.getProperty(PropertyFileUtils.java:53) bigin 
+2019-12-12 11:31:44,231 DEBUG Exception001.PropertyFileUtils.getProperty(PropertyFileUtils.java:57) propertyName: K3 
+2019-12-12 11:31:44,231 DEBUG Exception001.PropertyFileUtils.getProperty(PropertyFileUtils.java:58) propertyValue: K3 neco este jiniho 
+2019-12-12 11:31:44,234 DEBUG Exception001.Exception001.main(Exception001.java:33) *** END *** 
+2019-12-12 13:33:46,257 DEBUG database.Database.main(Database.java:19) *** BEGIN *** 
+2019-12-12 13:33:46,384 DEBUG database.Database.main(Database.java:50) *** END *** 

@@ -1,0 +1,18 @@
+2019-12-11 15:51:01,279 DEBUG javap6.Project006.main(Project006.java:14) *** BIGIN *** 
+2019-12-11 15:51:01,291 DEBUG javap6.DataBeanHelper.<init>(DataBeanHelper.java:9) bigin 
+2019-12-11 15:51:01,291 DEBUG javap6.DataBeanHelper.loadDataBean(DataBeanHelper.java:15) bigin 
+2019-12-11 15:51:01,292 DEBUG javap6.DataBean.<init>(DataBean.java:22) bigin 
+2019-12-11 15:51:01,292 DEBUG javap6.DataBeanHelper.getDataBean(DataBeanHelper.java:21) bigin 
+2019-12-11 15:51:01,293 DEBUG javap6.Project006.main(Project006.java:35) *** END *** 
+2019-12-11 15:51:24,876 DEBUG javap6.Project006.main(Project006.java:14) *** BIGIN *** 
+2019-12-11 15:51:24,881 DEBUG javap6.DataBeanHelper.<init>(DataBeanHelper.java:9) bigin 
+2019-12-11 15:51:24,882 DEBUG javap6.DataBeanHelper.loadDataBean(DataBeanHelper.java:15) bigin 
+2019-12-11 15:51:24,882 DEBUG javap6.DataBean.<init>(DataBean.java:22) bigin 
+2019-12-11 15:51:24,882 DEBUG javap6.DataBeanHelper.getDataBean(DataBeanHelper.java:21) bigin 
+2019-12-11 15:51:24,883 DEBUG javap6.Project006.main(Project006.java:35) *** END *** 
+2019-12-11 15:53:32,204 DEBUG javap6.Project006.main(Project006.java:14) *** BIGIN *** 
+2019-12-11 15:53:32,210 DEBUG javap6.DataBeanHelper.<init>(DataBeanHelper.java:9) bigin 
+2019-12-11 15:53:32,210 DEBUG javap6.DataBeanHelper.loadDataBean(DataBeanHelper.java:15) bigin 
+2019-12-11 15:53:32,211 DEBUG javap6.DataBean.<init>(DataBean.java:22) bigin 
+2019-12-11 15:53:32,211 DEBUG javap6.DataBeanHelper.getDataBean(DataBeanHelper.java:21) bigin 
+2019-12-11 15:53:32,212 DEBUG javap6.Project006.main(Project006.java:35) *** END *** 
